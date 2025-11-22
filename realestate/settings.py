@@ -6,7 +6,7 @@ SECRET_KEY = 'internship-demo-secret-key-1234567890'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
